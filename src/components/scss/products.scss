@@ -1,0 +1,154 @@
+main {
+
+    font-family: 'Poppins', sans-serif;
+
+    .buttonSelectType {
+        margin-left: 86px;
+
+        .productType {
+            border: 1px solid #dedede;
+            background-color: transparent;
+            width: 211.5px;
+            height: 40px;
+            font-size: 16px;
+            font-weight: 400;
+
+            p {
+                color: var(--text-color);
+                text-transform: uppercase;
+            }
+        }
+    }
+
+
+
+    .title {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding-left: 151px;
+        padding-right: 151px;
+        margin-bottom: 4px;
+
+        h1 {
+            width: 512px;
+            font-size: 30px;
+            color: var(--strong-color);
+        }
+        
+        hr {
+            width: 360px;
+            height: 2px;
+            background-color: #dedede;
+            border: none;
+        }
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    .listedProducts {
+        display: flex;
+        max-width: 100%; 
+        overflow-x: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-inline: 56px;
+
+        .scrollButtonLeft {
+            position: absolute;
+            top: 150%;
+            left: 25px;
+            rotate: 180deg;
+            button {
+                border: none;
+                background-color: transparent;
+                cursor: pointer;
+            }
+        }
+
+        .scrollButtonRight {
+            position: absolute;
+            top: 150%;
+            right: 25px;
+            button {
+                border: none;
+                background-color: transparent;
+                cursor: pointer;
+            }
+        }
+
+        .product {
+            width: 270px;
+            height: 500px;
+            font-family: 'Poppins', sans-serif;
+            border-radius: 10px;
+            box-shadow: 0px 0px 11px 0px rgba($color: #000000, $alpha: 0.3);
+            padding-top: 32px;
+            padding-left: 12px;
+            padding-right: 12px;
+            margin-inline: 31px;
+
+            h2 {
+                margin-top: 12px;
+                color: #808080;
+                font-size: 16px;
+                font-weight: 400;
+                text-decoration: line-through;
+            }
+
+            h3 {
+                margin-top: 2px;
+                font-weight: 700;
+                font-size: 20px;
+                color: var(--product-text-color);
+            }
+
+            img {
+                width: 247px;
+                height: 228px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+
+            .productName {
+                margin-top: 9px;
+                font-size: 15px;
+                color: var(--product-text-color);
+                font-weight: 300;
+            }
+
+            .splitPayment {
+                margin-top: 2px;
+                color: var(--product-text-color);
+                font-size: 12px;
+                font-weight: 400;
+            }
+
+            .freeDelivery {
+                margin-top: 7px;
+                color: var(--strong-color);
+                font-size: 12px;
+                font-weight: 400;
+            }
+
+            button {
+                margin-top: 12px;
+                width: 245px;
+                height: 44px;
+                border-radius: 4px;
+                background-color: var(--secondary-color);
+                border: none;
+                color: #fff;
+                font-weight: 700;
+                font-size: 14px;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,123 @@
+.relatedInfo {
+
+    .titleContent {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .subTitle {
+
+            p {
+                font-size: 15px;
+                color: var(--product-text-color);
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.related {
+    margin-top: 88px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+    .image {
+        position: relative;
+
+        img {
+            width: 574px;
+            height: 284px;
+        }
+
+        img:nth-child(2) {
+            position: absolute;
+            left: 0px;
+        }
+    }
+
+    .content {
+        position: absolute;
+        left: 112px;
+
+        .text {
+            display: flex;
+            flex-direction: column;
+
+            h1 {
+                font-size: 40px;
+                font-weight: 700;
+                color: #fff;
+            }
+
+            p {
+                margin-top: 8px;
+                width: 175px;
+                font-size: 16px;
+                font-weight: 400;
+                color: #fff;
+            }
+        }
+
+        .buttonPartner {
+
+            margin-top: 32px;
+
+            button {
+                width: 131px;
+                height: 48px;
+                background-color: var(--secondary-color);
+                font-size: 16px;
+                font-weight: bold;
+                text-transform: uppercase;
+                border: none;
+                border-radius: 10px;
+                color: #fff;
+                cursor: pointer;
+
+            }
+        }
+    }
+
+    .secondContent {
+        position: absolute;
+        right: 386px;
+
+        .text {
+            display: flex;
+            flex-direction: column;
+
+            h1 {
+                font-size: 40px;
+                font-weight: 700;
+                color: #fff;
+            }
+
+            p {
+                margin-top: 8px;
+                width: 175px;
+                font-size: 16px;
+                font-weight: 400;
+                color: #fff;
+            }
+        }
+
+        .buttonPartner {
+
+            margin-top: 32px;
+
+            button {
+                width: 131px;
+                height: 48px;
+                background-color: var(--secondary-color);
+                font-size: 16px;
+                font-weight: bold;
+                text-transform: uppercase;
+                border: none;
+                border-radius: 10px;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,77 @@
+.allBrands {
+
+    .brandTitle {
+        margin-top: 78px;
+
+        h1 {
+            text-align: center;
+            color: var(--secondary-color);
+            font-size: 30px;
+        }
+    }
+
+    .brands {
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 60px;
+        margin-bottom: 80px;
+        margin-inline: 86px;
+        overflow-x: auto;
+
+        .brand {
+            background-color: blue;
+            width: 211px;
+            height: 211px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-block: 76px;
+            padding-inline: 20px;
+            margin-inline: 20px;
+            border-radius: 50%;
+            background-color: #fff;
+            box-shadow: 0px 4px 11px 0px rgba($color: #000000, $alpha: 0.3);
+
+            img {
+                width: 172px;
+                height: 62px;
+            }
+        }
+
+        .personalizedBrand {
+            padding-block: 34px;
+            padding-inline: 33px;
+
+            img {
+                width: 142px;
+                height: 142px;
+            }
+        }
+    }
+
+    .scrollButtonLeftBrand {
+        position: absolute;
+        top: 355%;
+        left: 25px;
+        rotate: 180deg;
+        button {
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+        }
+    }
+
+    .scrollButtonRightBrand {
+        position: absolute;
+        top: 355%;
+        right: 25px;
+        button {
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+        }
+    }
+}
